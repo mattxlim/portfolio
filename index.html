@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53b5280509.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <title>Matthew Lim | Fresh IT Graduate</title>
   </head>
@@ -15,11 +16,14 @@
     <section class="hero">
         <nav>
             <img class="logo" src="src/imgs/logo.png" alt="Matthew's Logo"/>
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="nav-list">
+                <li><a href= "#about-me">About me</a></li>
+                <li><a href= "#projects">Projects</a></li>
+                <li><a href= "#contact">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-section">
             <div class="hero-text">
@@ -40,7 +44,7 @@
         
     </section>
     <!-- More about -->
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="info">
         <h2>About Me</h2>
         <p>Hello! My name is Matthew Lim. I'm a fresh graduate in Master of Information Technology and am find a Software Developer position.</p>
@@ -52,12 +56,27 @@
     <!-- Skills section -->
 
     <!-- Projects section -->
-    <section class="project-section">
+    <section class="project-section" id="projects">
       <h2>Projects</h2>
       <div class="projects">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
+        <div class="project">
+          <h3>WhatsInMyFridge</h3>
+          <p class="subtext">View here</p>
+          <hr/>
+          <p class="subtext"><a class="repo-link" href="https://github.com/mattxlim">View here</a></p>
+        </div>
+        <div class="project">
+          <h3>WhatsInMyFridge</h3>
+          <p class="subtext">View here</p>
+          <hr/>
+          <p class="subtext">View here</p>
+        </div>
+        <div class="project">
+          <h3>WhatsInMyFridge</h3>
+          <p class="subtext">View here</p>
+          <hr/>
+          <p class="subtext">View here</p>
+        </div>
       </div>
     </section>
     <!-- Contact section -->
@@ -67,7 +86,10 @@
     <!-- Scroll to top -->
 
     <!-- Footer section -->
-    <footer></footer>
+    <footer id="contact">
+      <h2>Contact me</h2>
+      
+    </footer>
     <!-- Website scripts -->
 
     <!-- Ion icons scripts -->
